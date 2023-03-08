@@ -175,7 +175,7 @@ jobs:
           tag: ${{ steps.compile.outputs.build_tag }}
           artifacts: openwrt/bin/targets/*/*/*rootfs.tar.gz
           allowUpdates: true
-          token: ${{ secrets.ophub }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Clean up server space
         if: ${{ steps.compile.outputs.status }} == 'success' && !cancelled()
