@@ -90,7 +90,7 @@ env:
   CONFIG_FILE: config-openwrt/lede-master/config
   DIY_P1_SH: config-openwrt/lede-master/diy-part1.sh
   DIY_P2_SH: config-openwrt/lede-master/diy-part2.sh
-  TZ: Asia/ShangHai
+  TZ: Asia/Shanghai
 
 jobs:
   build:
